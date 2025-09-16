@@ -15,5 +15,8 @@ public class Program {
         s1.firstName="Mary";
         s1.lastName="Ganza";
         s1.school="Rwanda Coding Academy";
+
+        //mistake not everyone is a student
+//        Student s3 = new Person();
     }
 }
