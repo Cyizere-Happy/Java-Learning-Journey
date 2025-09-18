@@ -2,7 +2,8 @@ package rw.rca.FirstProject.OOP;
 //polymorphism
 //Method can be overloaded if the number of parameters is different
 //Method can be overloaded if the data types is different
-public class Arithmetic {
+//Return type can't lead to overloading
+public class Overloading {
     int addition(){
         return 10 + 20;
     }
