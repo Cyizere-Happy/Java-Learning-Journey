@@ -49,7 +49,9 @@ public class Person {
         this.lastName = lname;
     }
     public  void setAge(int age) {
-        this.age = age;
+        if(age > 0) {
+            this.age = age;
+        }
     }
 
     //Getter no parameter should be passed in

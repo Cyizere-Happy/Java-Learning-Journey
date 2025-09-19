@@ -11,6 +11,13 @@ public class Person_Program {
         person1.setAge(15);
         System.out.println(person1.getFirstName() + " " + person1.getLastName() + " " + person1.getAge());
         System.out.println(person3);
+        Person person4 = new Person();
+        person4.setAge(-20);
+        System.out.println(person4.getAge());
+
+        //Strings are initialized by null and null while integer is 0
+        Person person5 = new Person();
+        System.out.println(person5);
 
     }
 }
